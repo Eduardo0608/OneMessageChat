@@ -1,4 +1,4 @@
-#OneMessageChat
+## OneMessageChat
 
 This app is built in Kotlin and uses Google's Firebase to store and manage conversations.
 
@@ -13,7 +13,7 @@ This app is built in Kotlin and uses Google's Firebase to store and manage conve
 - Android OS version 2023 or higher
 - Internet connection to interact with Firebase
 
-##Firebase configuration
+## Firebase configuration
 
 Before you start using the app, make sure you configure Firebase:
 
@@ -21,7 +21,7 @@ Before you start using the app, make sure you configure Firebase:
 2. Add your Android app to the project.
 3. Download the `google-services.json` configuration file and place it in the `app/` folder of your Android project.
 
-##Installation
+## Installation
 
 1. Clone this repository:
 
