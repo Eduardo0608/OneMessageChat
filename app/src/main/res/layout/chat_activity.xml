@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#000080"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <TextView
         android:id="@+id/textViewTitle"
@@ -26,7 +27,8 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbarIn" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbarIn"
+        />
 
     <TextView
         android:id="@+id/idTv"
@@ -41,7 +43,8 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        />
 
     <EditText
         android:id="@+id/messageEt"
@@ -57,7 +60,8 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/idTv" />
+        app:layout_constraintTop_toBottomOf="@id/idTv"
+        />
 
     <Button
         android:id="@+id/saveBt"
@@ -70,7 +74,8 @@
         android:text="Enviar mensagem"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/messageEt" />
+        app:layout_constraintTop_toBottomOf="@id/messageEt"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
